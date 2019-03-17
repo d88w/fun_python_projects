@@ -1,4 +1,4 @@
-# udacity_python_projects
+# fun_python_projects
 
 1. script that reminds me to take a rest
 2. script to rename files
