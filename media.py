@@ -1,0 +1,22 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[ ]:
+
+import webbrowser
+
+class Movie():
+	"""This is a class that stores movies information"""
+	
+	VALID_RATINGS = ["G", "PG", "R", "PG-13"]
+
+	def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
+		self.title = movie_title
+		self.storyline = movie_storyline
+		self.poster_image_url = poster_image
+		self.trailer_youtube_url = trailer_youtube
+
+	def show_trailer(self):
+		webbrowser.open(self.trailer_youtube_url)
+
+
